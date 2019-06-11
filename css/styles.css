@@ -1,0 +1,134 @@
+
+/*I have learned some of these css codes from https://www.w3schools.com AND https://css-tricks.com */
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+html {
+    margin: 2%;
+    background-color: whitesmoke;
+}
+
+hr {
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+a {
+    margin: 0;
+    font: 10px CenturyGothic, AppleGothic, sans-serif;
+    color: #4b4b4b;
+}
+
+h2 {
+    font: 24px Copperplate,fantasy;
+    margin: 2% 0 0;
+    color: #822d2d;
+}
+h5 {
+    margin: 0 0 0 4%;
+    color: dimgray;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+p {
+    text-align: justify;
+    font: 12px Arial Narrow;
+    color: dimgrey;
+    margin: 0 0 2% 0;
+}
+
+/*
+* Header
+*/
+
+.style-header {
+    /*    align-content: center;*/
+    display: flex;
+    flex-flow: row wrap;
+    /*    align-items: center;*/
+    justify-content: center;
+}
+
+.text-header > h1 {
+    font: bold 28px fantasy,Papyrus;
+    color:#822d2d;
+    text-align: center;
+    margin: 0;
+}
+
+.text-header > h2 {
+    font-size: 18px;
+    color: dimgrey;
+    text-align: center;
+    margin: 0;
+}
+
+
+/*
+.flex-container {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+*/
+
+/*
+* body
+*/
+
+.main {
+    position: relative;
+    margin: 2% 0;
+}
+
+.main > h2 {
+    font: bold 26px cursive;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    width: 100%;
+    color: #822d2d;
+    text-shadow: #ffffff 0 0 .2em;
+}
+
+.works {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.project {
+    width: 60%;
+    margin: 4% 4% 0;
+}
+
+.project > h4 {
+    color: dimgray;
+    font-family:  Geneva, Tahoma, Verdana, sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.project > img {
+    border: 2px solid  #822d2d;
+    border-radius: 5px;
+}
+
+
+
+/*
+* Footer
+*/
+
+footer > h6 {
+    margin: 0%;
+    text-align: center;
+    color: dimgrey;
+}
